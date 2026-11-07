@@ -1,10 +1,11 @@
 import random as rd 
 print("seja bem vindo ao jogo de adivinhação de numeros aleatorios") #1 Questão
-print("")
+
+
 numero = rd.randint(1,100)
 palpites = []
 while True:
-    usuario = int(input(""))
+    usuario = int(input("")) 
     try:
         palpite = int(usuario)
     except ValueError:

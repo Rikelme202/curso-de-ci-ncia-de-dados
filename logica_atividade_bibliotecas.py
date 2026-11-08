@@ -1,7 +1,6 @@
 import random as rd 
+import math
 print("seja bem vindo ao jogo de adivinhação de numeros aleatorios") #1 Questão
-
-
 numero = rd.randint(1,100)
 palpites = []
 while True:
@@ -26,4 +25,20 @@ while True:
         print("o numero aleatorio e menor")
     else:
         print("o numero aleatorio e maior")
-        
+
+#QUESTÃO 2
+def triangulo():
+    base = float(input("Base: "))
+    altura = float(input("Altura: "))
+    if base > 0 and altura > 0:
+        area = (base * altura) / 2
+        print(f"E um Triangulo. Area de : {area:.2f}")
+    else:
+        print("não e um trinagulo, os valores devem ser maiores que zero")
+def quadrado():
+    lado = float(input("Lado: "))
+    if lado > 0
+def losango():
+def retangulo():
+def trapézio():
+def circulo():
